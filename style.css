@@ -1,0 +1,46 @@
+/* Gaya Umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #32CD32; /* Latar belakang hijau */
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+}
+
+header a {
+  color: #FFD700; /* Warna emas untuk tautan */
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.grid-item img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #228B22; /* Warna hijau lebih gelap */
+  color: white;
+}
